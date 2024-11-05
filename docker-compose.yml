@@ -1,6 +1,6 @@
 services:
   delta3:
-    image: shshdxk/delta-lake-connect:3.5.3
+    image: shshdxk/delta-lake-spark-connect:3.5.3
     volumes:
       - /home/xc/data/delta/mylib:/opt/spark/work-dir/mylib
     ports:
