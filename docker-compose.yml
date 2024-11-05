@@ -1,0 +1,9 @@
+services:
+  delta3:
+    image: shshdxk/delta-lake-connect:3.5.3
+    volumes:
+      - /home/xc/data/delta/mylib:/opt/spark/work-dir/mylib
+    ports:
+      - "8888:8888"
+      - "15002:15002"
+      - "4040:4040"
